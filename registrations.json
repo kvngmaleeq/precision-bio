@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Demo User",
+    "organization": "Demo Lab",
+    "email": "demo@lab.org",
+    "role": "PI",
+    "researchUse": "Testing",
+    "selectedCompounds": "Retatrutide",
+    "submittedAt": "2026-08-01T00:00:00Z"
+  },
+  {
+    "name": "Test",
+    "phone": "123",
+    "email": "x@y.com",
+    "address": "A",
+    "totalAmount": "\u20a61",
+    "selectedCompounds": "Test"
+  }
+]
