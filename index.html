@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>precisionbios — Research Peptide &amp; Reagent Supply</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&family=Poppins:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=20260801-glossy">
+</head>
+<body>
+
+<header>
+  <div class="nav-row">
+    <a href="index.html" class="logo">
+      <img src="assets/precision-bio-icon.png" alt="precisionbios" width="34" height="34">
+      <div>
+        precisionbios
+        <span class="sub">Research Supply</span>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html#cart">Cart</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#access">Register</a></li>
+        <li><a href="index.html#portfolio">Shop</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-single">
+    <span class="eyebrow">Premium Research Peptides &amp; Reagents</span>
+    <h1>precisionbios</h1>
+    <div class="tagline">Quality. Purity. Trust.</div>
+    <p class="lede">Compounds available for order. Pricing is shared after review.</p>
+    <div class="cta-row">
+      <a href="index.html#access" class="btn btn-primary">Register →</a>
+      <a href="assets/pricelist2026.pdf" class="btn btn-ghost" download>Price List PDF</a>
+      <a href="https://wa.me/2349164842826?text=Hi%2C%20I%27d%20like%20to%20get%20in%20touch%20about%20Precision%20Bio%20research%20supply." target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21h.004c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0012.04 2zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.57.17.29.75 1.23 1.6 2 1.1.98 2.03 1.28 2.32 1.43.29.14.45.12.62-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.21.55.33.07.12.07.7-.17 1.38z"/></svg>
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="trust-strip">
+  <div class="wrap">
+    <div class="trust-verified">
+      <div class="trust-verified-icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4M12 3l7 4v5c0 5-3.5 8.5-7 9-3.5-.5-7-4-7-9V7l7-4z"/></svg>
+      </div>
+      <div class="trust-verified-body">
+        <div class="trust-verified-title">Verified</div>
+        <div class="trust-verified-desc">All batches are independently tested. Certificate of Analysis available for every compound.</div>
+      </div>
+      <a href="assets/coa-result.pdf" class="btn btn-ghost trust-coa-btn" target="_blank" rel="noopener">
+        View Certificate of Analysis (COA)
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow-sm">Shop</span>
+      <h2>Compounds available</h2>
+      <p>Select an item to add it to the cart.</p>
+    </div>
+    <div class="port-grid" id="portGrid"></div>
+    <p class="port-note">Pricing and availability are reviewed after registration.</p>
+  </div>
+</section>
+
+<section class="cart-section" id="cart">
+  <div class="wrap cart-shell">
+    <div>
+      <span class="eyebrow-sm">Cart</span>
+      <h2>Simple ordering</h2>
+      <p>Select compounds and place your order. We will confirm the details and send the total.</p>
+    </div>
+    <div class="cart-panel" id="cartPanel"></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <h2>A supplier built around documentation, not just delivery.</h2>
+      <p>Precision Bio exists to give research organizations a dependable, well-documented source for peptides and reference compounds — with the paperwork, verification, and consistency that laboratory work actually requires.</p>
+      <p>We're early. What won't change as we grow is the standard: verified buyers, tested batches, and a paper trail behind every order.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat"><div class="n">100%</div><div class="l">Batches independently tested</div></div>
+      <div class="stat"><div class="n">2</div><div class="l">Documents per order — COA + SDS</div></div>
+      <div class="stat"><div class="n">B2B</div><div class="l">Institutional buyers only</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="access" id="access">
+  <div class="wrap access-grid">
+    <div class="access-side">
+      <span class="eyebrow-sm">Register</span>
+      <div class="t" style="font-size:22px; margin-top:10px; font-family:'Manrope',sans-serif;">Place your order</div>
+      <div class="d">Send your details and selected compounds. We will follow up with the total and delivery details.</div>
+      <div class="channel-list">
+        <div class="channel"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span> support@precisionbios.com</div>
+        <div class="channel"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 18h6"/></svg></span> Documentation on request</div>
+        <div class="channel"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span> Reply within 1–2 business days</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <form id="accessForm">
+        <div class="form-row">
+          <div class="field"><label for="name">Full name</label><input id="name" name="name" required placeholder="Your full name"></div>
+          <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" required placeholder="Your phone number"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="your@email.com"></div>
+          <div class="field"><label for="address">Delivery address</label><input id="address" name="address" required placeholder="Your delivery address"></div>
+        </div>
+        <div class="form-row">
+          <div class="field full"><label for="selectedCompounds">Selected compounds</label><textarea id="selectedCompounds" name="selectedCompounds" readonly placeholder="Your selected compounds will appear here"></textarea></div>
+        </div>
+        <div class="form-row">
+          <div class="field full"><label for="orderTotal">Order total</label><input id="orderTotal" name="orderTotal" readonly value="₦0"></div>
+        </div>
+        <div class="submit-row">
+          <button type="submit" class="btn btn-primary">Place Order</button>
+          <span class="fine">We will send your order details to your email.</span>
+        </div>
+        <div class="form-msg" data-fs-success>Thanks — your order was received. Your email client should open with a draft — please send it to complete your order.</div>
+        <div class="form-msg form-msg-error" data-fs-error>Something went wrong. Please try again or email us directly.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="assets/precision-bio-logo.png" alt="precisionbios — Quality. Purity. Trust." width="150" style="display:block; margin-bottom:16px; border-radius:8px;">
+        <p style="font-size:13.5px; line-height:1.6; max-width:280px;">Peptide and research-reagent supply for laboratories and research organizations. Quality. Purity. Trust.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="policies/shipping.html">Shipping Policy</a></li>
+          <li><a href="policies/disclaimer.html">Disclaimer</a></li>
+          <li><a href="policies/privacy.html">Privacy Policy</a></li>
+          <li><a href="policies/terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="policies/refund.html">Refund Policy</a></li>
+          <li><a href="policies/faq.html">FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 precisionbios. All rights reserved.</span>
+      <span>Order details and compliance information provided on request</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Product Detail Modal ===== -->
+<div id="productModal" class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+  <div class="modal-overlay" id="modalOverlay"></div>
+  <div class="modal-panel">
+    <button class="modal-close" id="modalCloseBtn" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+
+    <div class="modal-gallery">
+      <div class="gallery-track" id="galleryTrack"></div>
+      <button class="gallery-arrow gallery-prev" id="galleryPrev" aria-label="Previous image">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="gallery-arrow gallery-next" id="galleryNext" aria-label="Next image">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+      <div class="gallery-thumbs" id="galleryThumbs"></div>
+    </div>
+
+    <div class="modal-info">
+      <div class="modal-cat" id="modalCat"></div>
+      <h3 class="modal-name" id="modalName"></h3>
+      <p class="modal-desc" id="modalDesc"></p>
+      <div class="modal-qty-wrap">
+        <div class="qty-label">Quantity</div>
+        <div class="qty-options" id="qtyOptions"></div>
+      </div>
+      <div class="modal-price" id="modalPrice"></div>
+      <button class="btn btn-primary modal-add-btn" id="modalAddBtn" type="button">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js?v=20260801-modal2"></script>
+</body>
+</html>
