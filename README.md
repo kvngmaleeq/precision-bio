@@ -7,7 +7,7 @@ A modern, glossy Apple-inspired web platform for institutional ordering of resea
 ## Features
 
 ✅ **Product Showcase**
-- 10 research compounds with detailed descriptions
+- 12 research compounds with detailed descriptions
 - Responsive product cards with hover effects
 - Click to view full details modal with image gallery
 
@@ -72,16 +72,18 @@ precision-bio/
 
 ## Compounds Available
 
-1. **Semax** — Neuropeptide Research (₦60,000)
-2. **AOD 9604** — Metabolic Research (₦75,000)
-3. **Retatrutide** — Metabolic Research (₦180,000)
-4. **KPV** — Anti-Inflammatory Research (₦55,000)
-5. **Tirzepatide** — Metabolic Research (₦195,000)
-6. **MOTS-c** — Mitochondrial Research (₦95,000)
-7. **GHK-Cu** — Dermal / Cellular Research (₦85,000)
-8. **ACD 856** — Cognitive Research (₦120,000)
-9. **Glutathione** — Antioxidant Research (₦50,000)
-10. **Tesamorelin** — Growth Hormone Research (₦140,000)
+1. **Semax** — Neuropeptide Research (₦168,000)
+2. **AOD 9604** — Metabolic Research (₦200,000)
+3. **Retatrutide** — Metabolic Research (₦300,000)
+4. **KPV** — Anti-Inflammatory Research (₦200,000)
+5. **Tirzepatide** — Metabolic Research (₦230,000)
+6. **MOTS-c** — Mitochondrial Research (₦200,000)
+7. **GHK-Cu** — Dermal / Cellular Research (₦250,000)
+8. **ACD 856** — Cognitive Research (₦220,000)
+9. **Glutathione** — Antioxidant Research (₦220,000)
+10. **Tesamorelin** — Growth Hormone Research (₦190,000)
+11. **NAD+** — Cellular Energy Research (₦180,000)
+12. **Semaglutide** — Metabolic Research (₦154,000)
 
 ## Getting Started
 
@@ -133,7 +135,8 @@ Edit `js/main.js`, add to the `compounds` array:
   name: "Your Compound",
   cat: "Research Category",
   price: 100000,
-  packSize: 5,
+  packPrice: 900000,
+  packSize: 10,
   imgs: ["images/compound-1.jpg", "images/compound-2.jpg"],
   desc: "Full research description here..."
 }
