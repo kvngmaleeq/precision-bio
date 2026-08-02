@@ -1,0 +1,85 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sphereBlue" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#BFDBFE"/>
+      <stop offset="35%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#0A2540"/>
+    </radialGradient>
+    <radialGradient id="sphereNavy" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="45%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#08192E"/>
+    </radialGradient>
+    <linearGradient id="strandA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0A2540" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="strandB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2540" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- helix strands -->
+  <path d="M120 0 C260 90, 260 160, 120 250 C-20 340, -20 400, 120 490 C260 580, 260 640, 120 730 C40 780, 20 830, 60 900"
+        stroke="url(#strandA)" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M480 0 C340 90, 340 160, 480 250 C620 340, 620 400, 480 490 C340 580, 340 640, 480 730 C560 780, 580 830, 540 900"
+        stroke="url(#strandB)" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- rungs -->
+  <g stroke="#2563EB" stroke-opacity="0.22" stroke-width="3">
+    <line x1="128" y1="30" x2="472" y2="30"/>
+    <line x1="80" y1="120" x2="520" y2="120"/>
+    <line x1="60" y1="215" x2="540" y2="215"/>
+    <line x1="90" y1="300" x2="510" y2="300"/>
+    <line x1="140" y1="390" x2="460" y2="390"/>
+    <line x1="90" y1="480" x2="510" y2="480"/>
+    <line x1="60" y1="565" x2="540" y2="565"/>
+    <line x1="80" y1="655" x2="520" y2="655"/>
+    <line x1="130" y1="745" x2="470" y2="745"/>
+    <line x1="90" y1="830" x2="510" y2="830"/>
+  </g>
+
+  <!-- glossy spheres at nodes -->
+  <g>
+    <circle cx="128" cy="30" r="15" fill="url(#sphereBlue)"/>
+    <circle cx="472" cy="30" r="15" fill="url(#sphereNavy)"/>
+    <circle cx="80" cy="120" r="19" fill="url(#sphereNavy)"/>
+    <circle cx="520" cy="120" r="12" fill="url(#sphereBlue)"/>
+    <circle cx="60" cy="215" r="13" fill="url(#sphereBlue)"/>
+    <circle cx="540" cy="215" r="18" fill="url(#sphereNavy)"/>
+    <circle cx="90" cy="300" r="17" fill="url(#sphereNavy)"/>
+    <circle cx="510" cy="300" r="13" fill="url(#sphereBlue)"/>
+    <circle cx="140" cy="390" r="14" fill="url(#sphereBlue)"/>
+    <circle cx="460" cy="390" r="19" fill="url(#sphereNavy)"/>
+    <circle cx="90" cy="480" r="18" fill="url(#sphereNavy)"/>
+    <circle cx="510" cy="480" r="12" fill="url(#sphereBlue)"/>
+    <circle cx="60" cy="565" r="13" fill="url(#sphereBlue)"/>
+    <circle cx="540" cy="565" r="17" fill="url(#sphereNavy)"/>
+    <circle cx="80" cy="655" r="16" fill="url(#sphereNavy)"/>
+    <circle cx="520" cy="655" r="12" fill="url(#sphereBlue)"/>
+    <circle cx="130" cy="745" r="14" fill="url(#sphereBlue)"/>
+    <circle cx="470" cy="745" r="17" fill="url(#sphereNavy)"/>
+    <circle cx="90" cy="830" r="15" fill="url(#sphereNavy)"/>
+    <circle cx="510" cy="830" r="11" fill="url(#sphereBlue)"/>
+  </g>
+
+  <!-- floating molecule cluster, echoing the logo mark -->
+  <g opacity="0.85">
+    <line x1="700" y1="120" x2="760" y2="70" stroke="#0A2540" stroke-width="4" stroke-opacity="0.5"/>
+    <line x1="700" y1="120" x2="780" y2="150" stroke="#0A2540" stroke-width="4" stroke-opacity="0.5"/>
+    <line x1="780" y1="150" x2="770" y2="210" stroke="#0A2540" stroke-width="4" stroke-opacity="0.5"/>
+    <circle cx="760" cy="70" r="16" fill="url(#sphereBlue)"/>
+    <circle cx="700" cy="120" r="24" fill="url(#sphereNavy)"/>
+    <circle cx="780" cy="150" r="14" fill="url(#sphereBlue)"/>
+    <circle cx="770" cy="210" r="20" fill="url(#sphereNavy)"/>
+  </g>
+
+  <g opacity="0.6">
+    <line x1="640" y1="620" x2="700" y2="580" stroke="#0A2540" stroke-width="3.5" stroke-opacity="0.45"/>
+    <line x1="640" y1="620" x2="660" y2="680" stroke="#0A2540" stroke-width="3.5" stroke-opacity="0.45"/>
+    <circle cx="700" cy="580" r="12" fill="url(#sphereBlue)"/>
+    <circle cx="640" cy="620" r="18" fill="url(#sphereNavy)"/>
+    <circle cx="660" cy="680" r="10" fill="url(#sphereBlue)"/>
+  </g>
+</svg>
